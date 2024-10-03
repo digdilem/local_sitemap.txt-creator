@@ -4,6 +4,8 @@
 # Usage: create_sitemap.pl https://domain.co.uk/ 
 # Works from start of local directory
 
+use strict;
+
 my $output_sitemap = "sitemap.txt";
 
 print "Creating sitemap of fles below current directory into $output_sitemap\n";
